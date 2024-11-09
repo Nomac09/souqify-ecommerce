@@ -1,0 +1,43 @@
+# Environment variables and secrets
+.env
+.env.*
+*.env
+config.json
+secrets.json
+
+# Python specific
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+ENV/
+.Python
+build/
+dist/
+*.egg-info/
+
+# IDE and OS specific
+.idea/
+.vscode/
+.DS_Store
+*.swp
+*.swo
+
+# Project specific
+logs/
+tmp/
+temp/
+*.log
+*.tmp
+*.temp
+
+# WordPress specific
+wp-config.php
+wp-content/uploads/
+wp-content/cache/
+wp-content/backups/
+
+# Credentials and keys
+**/credentials/*
+**/keys/*
+api_config.json
